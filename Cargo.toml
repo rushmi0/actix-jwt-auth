@@ -1,0 +1,19 @@
+[package]
+name = "actix-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "actix-rs"
+path = "src/main/main.rs"
+
+[dependencies]
+actix-cors = "0.7.0"
+actix-web = "4.9.0"
+dotenvy = "0.15.7"
+once_cell = "1.20.2"
+env_logger = "0.11.5"
+log = "0.4.22"
+sqlx = { version = "0.8", features = ["postgres", "runtime-tokio", "tls-native-tls"] }
+serde = { version = "1", features = ["derive"] }
+lazy_static = "1.5.0"
