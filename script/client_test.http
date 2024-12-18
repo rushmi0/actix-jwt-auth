@@ -12,5 +12,5 @@ POST http://localhost:8080/api/v1/auth/verify
 Content-Type: application/json
 
 {
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczNDUxMzI0NX0.TfBl4yRkOZCzI0M3krMvDzM5TwYcVDxt2MPyuX6lZfc"
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjEsXCJyb2xlXCI6XCJBZG1pblwifSIsImV4cCI6MTczNDUxNDM5Nn0.Y3PXit-5CgWhAwMVqLHfI9hcUnhzM0GgYrxBu2p0ihM"
 }
