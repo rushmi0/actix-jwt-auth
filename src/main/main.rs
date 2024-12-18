@@ -1,7 +1,4 @@
-mod app;
-mod module;
-mod services;
-mod storage;
+use actix_rs::app;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

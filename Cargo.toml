@@ -3,6 +3,10 @@ name = "actix-rs"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "actix_rs"
+path = "src/main/lib.rs"
+
 [[bin]]
 name = "actix-rs"
 path = "src/main/main.rs"
@@ -17,3 +21,4 @@ log = "0.4.22"
 sqlx = { version = "0.8", features = ["postgres", "runtime-tokio", "tls-native-tls"] }
 serde = { version = "1", features = ["derive"] }
 lazy_static = "1.5.0"
+jsonwebtoken = "9.3.0"

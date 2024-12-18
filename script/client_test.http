@@ -1,0 +1,16 @@
+### Login Request
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password"
+}
+
+### Verify Token Request
+POST http://localhost:8080/api/v1/auth/verify
+Content-Type: application/json
+
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczNDUxMzI0NX0.TfBl4yRkOZCzI0M3krMvDzM5TwYcVDxt2MPyuX6lZfc"
+}
